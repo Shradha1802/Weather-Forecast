@@ -1,0 +1,95 @@
+*{
+    padding:0;
+    overflow: hidden;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: black; */
+    background: linear-gradient(to right, #0f172a, #334155);
+}
+.main{
+    font-family: 'Poppins', sans-serif;
+    width: fit-content;
+    height: fit-content;
+    /* margin: auto; */
+    padding: 20px;
+    /* background: linear-gradient(to top right, #22c55e, #0e7490, #3b82f6); */
+    background: radial-gradient(ellipse at left, #6366f1, #a5b4fc, #e0e7ff);
+    border-radius: 15px;
+}
+
+h1 {
+  margin: 0;   /* removes all margin */
+  padding: 0;  /* optional, removes padding too */
+}
+
+/*Search Bar*/
+.searchBar{
+    display: flex;
+    justify-content: space-between;
+}
+.searchInp{
+    border-radius: 15px;
+    border-color: transparent;
+    height: 35;
+    padding-left:5px ;
+    width: 80%;
+}
+.searchBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border-color: transparent;
+    padding: 0;
+    margin: 0;
+    font-size: larger;
+    text-align: center;
+    /* background-color: aqua; */
+}
+
+/*Second Div*/
+.SecondDiv{
+    margin: 20px 0px;
+    text-align: center;
+    color:white ;
+}
+.cloudImg{
+    width: 150px;
+    height: 150px;
+    /* margin: 5px 0px 0px 0px; */
+}
+.temperature{
+    font-size: 55px;
+}
+.cityName{
+    transform: translateY(-10px);
+}
+
+/*Third Div*/
+.ThirdDiv{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+
+}
+.leftDiv,.rightDiv,.centerDiv{
+    display: flex;
+    justify-content: space-between;
+    transform: scale(0.9);
+    gap:10px;
+}
+.left31 i{
+    font-size:40px;
+}
+.left31 img{
+    width: 40px;
+    height: 40px;
+}
+

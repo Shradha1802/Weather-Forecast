@@ -61,7 +61,7 @@ function getWeatherRange(temp) {
         return "cloudy.png";
     }
     else if (temp >= 18 && temp < 28) {
-        return "rain.jpg";
+        return "heavy-rain.jpg";
     }
     else if (temp >= 20 && temp < 30) {
         return "lightning.png";
@@ -74,3 +74,4 @@ function getWeatherRange(temp) {
 
     }
 }
+

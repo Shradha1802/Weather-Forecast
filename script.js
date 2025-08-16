@@ -66,7 +66,7 @@ function getWeatherRange(temp) {
     else if (temp >= 20 && temp < 30) {
         return "lightning.png";
     }
-    else if (temp >= -10 && temp < 5) {
+    else if (temp < 5) {
         return "snowflake.png";
     }
     else if (temp >= 5 && temp < 15) {
@@ -74,5 +74,6 @@ function getWeatherRange(temp) {
 
     }
 }
+
 
 
